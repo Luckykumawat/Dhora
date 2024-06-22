@@ -1,0 +1,321 @@
+
+.aboutus{
+    /* background-image: url('https://template.wphix.com/dhora-prv/dhora/assets/img/breadcrumb/bg.png'); */
+    border-image-repeat:stretch;
+    width: 100%;
+    height: 70vh;
+    background-color: #161d2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutus .con{
+    background-image: url('https://template.wphix.com/dhora-prv/dhora/assets/img/breadcrumb/bg.png');
+width: 23.5%;
+height: 100%;
+display: flex;
+align-items: center;
+/* background-color: red; */
+}
+
+.aboutus h1{
+    font-size: 3.4vw;
+    color: #ffffff;
+    margin-left: 8vw;
+    font-weight: 500;
+}
+
+.aboutus h2{
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.aboutus .home{
+    display: flex;
+    align-items: center;
+    margin-right: 8vw;
+    gap: 1vw;
+}
+
+.aboutus .home h2:hover{
+    color: #E27614;
+    cursor: pointer;
+}
+.aboutus .home i{
+    color: #ffffff;
+}
+
+.three-images{
+    background-image: url('https://template.wphix.com/dhora-prv/dhora/assets/img/play/bg.png');
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0f172a;
+}
+
+.th-img1{
+    margin-top: 4vw;
+    width: 25%;
+    height: 83%;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+
+.th-img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.th-img1:hover .hidden-text{
+    
+    visibility: visible;
+
+} 
+
+.hidden-text{   
+    color: #ffffff;
+    margin-top: -7vw;
+    visibility: hidden;
+}
+
+
+.hidden-text h4{   
+    font-size: 1vw;
+}
+
+.hidden-text h1{   
+    font-size: 1.9vw;
+}
+
+.th-img1:hover{
+    opacity: 1;
+    z-index: 999;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #FE9700 100%);
+}
+
+.last-images{
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://template.wphix.com/dhora-prv/dhora/assets/img/cta/bg.png");
+    background-color: #E27614;
+}
+
+.girl{
+    width: 50%;
+    height: 100%;
+}
+
+.girl img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.get{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-top: -11vw;
+}
+
+.get .phone{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    }
+
+.get .phone i{
+    padding: 1.2vw;
+    background-color: #e2a814;
+    border-radius: 5vw;
+    font-size: 3vw;
+    color: #000000;
+    margin-left: 15vw;
+}
+
+.get .phone h1{
+    color: #ffffff;
+}
+
+.get .contectus button{
+    padding: 1.5vw 3vw;
+    border: transparent;
+    font-size: 1.22vw;
+    font-weight: 600;
+    letter-spacing: .21vw;
+    background-color: #e2a814;
+    border-radius: .41vw;
+}
+
+.get .contectus button:hover{
+    border: 2px solid #E27614;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.contects{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    padding-top: 5vw;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0f172a;
+}    
+
+.logo-info{
+    width: 20%;
+    height: 100%;
+    color: #ffffff;
+    border-radius: 2px solid rgb(255, 255, 255);
+}
+
+.boxi-image h1{
+    font-size: 4vw;
+    color: #ffffff;
+    margin-top: 2vw;
+}
+
+.logo-info .cam-img h4{
+    width: 80%;
+    margin-top: 8vw;
+    color: #ffffff;
+    margin-top: .7vw;
+    font-weight: 400;
+    line-height: 4vh;
+}
+
+.logo-info .icons2{
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    color: #E27614;
+}
+
+.last-links{
+    margin-top: 1vh;
+    padding: 1vh;
+}
+
+.last-links h4{
+    font-weight: 400;
+    margin-top: 3vh;
+}
+
+.last-links h6{
+    width: 68%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+ .contect-info{
+    width: 90%;
+    padding-bottom: 1vh;
+    margin-top: 4vh;
+ }
+
+ .contect-info h4{
+    font-weight: 400;
+    letter-spacing: .10vw;
+ }
+
+ .contect-info .icon-num{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    margin-top: 2vh;
+ }
+
+ .contect-info .icon-num h3{
+    font-weight: 400;
+ 
+ }
+
+ .contect-info .icon-num h4{
+    font-weight: 400;
+ }
+
+ .contect-info .icon-num h3:hover{
+    cursor: pointer;
+    color: #E27614;
+ }
+
+ .contect-info  h4:hover{
+color: #E27614;
+cursor: pointer;
+
+ }
+
+ .contect-info .icon-num i{
+    color: #E27614;
+    font-size: 1.3vw;
+ }
+
+ .email-btn .btn{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    border-radius: .3vw ;
+    border: 1px solid #b6cfd7;
+ }
+
+ .email-btn button{
+    background-color: transparent;
+    padding: 1vw 2vw;
+    color: #ffffff;
+    border: 1px solid transparent;
+ }
+
+ .email-btn .btn i{
+    padding: 1vw;
+    color: #ffffff;
+    border-radius: .3vw;
+    background-color: #E27614;
+ }
+
+ footer{
+    width: 100%;
+    margin: auto;
+    height: 9vw;    
+    color: #b7b3b3;
+    font-weight: 700;
+    background-color: #0f172a;
+ }
+ inner-footer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ hr{
+    width: 80%;
+    margin: auto;
+ }
+
+ .mail:hover,.uper-right-nav:hover
+,.img-card:hover,.lower-image:hover
+,.lower-nav .logo-img:hover,.right-text button:hover
+,.links .droupdown:hover,.menu-icon:hover,.uper-image:hover
+,.right-images:hover,.round-images:hover,.moving-card button:hover
+,.logo-x .inner-icon:hover,.inner-contect .mail .email:hover
+,.gellery .uper-right-nav .social-media:hover,.inner-first:hover
+,.inner-logo:hover,.leader-card button:hover,.card-img:hover
+,.card-text .sentance:hover,.card-text .icon-tex .contect-icon h5:hover
+,.get .phone:hover,.get .contectus button:hover
+,.contects .logo-info .last-links:hover
+,.contects .icons2:hover, .contect-info  h4:hover
+,.email-btn .btn:hover,.email-btn .btn button:hover
+,.contects .logo-info .cam-img img{
+    cursor: pointer;
+}
