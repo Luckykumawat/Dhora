@@ -401,15 +401,15 @@
 }
 
 .lead-card{
-    width: 25%;
+    width: 24%;
     height: 75vh;
     margin-left: -5vw;
 }
 
 .yello-back-card{
-    width: 100%;
+    width: 30%;
     height: 70vh;
-    margin-left: 3vw;
+    margin-left: 11vw;
     z-index: 999;
     position: absolute;
     border-radius: .5vw;
