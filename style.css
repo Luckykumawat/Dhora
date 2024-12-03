@@ -218,16 +218,17 @@
 }
 
 .back-card{
-    width: 93%;
-    height: 99%;
+    width: 78%;
+    height: 79%;
     background-color: #E27614;
     position: absolute;
     transform: rotate(8deg);
 }
 
-/* .double-card:hover .back-card{
-    background-color: #000000;
-   } */
+.double-card:hover .back-card{
+    transform: rotate(0deg);
+    transition: .5s  ease-in-out;
+   }
 
 
 .frount-card{
